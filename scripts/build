@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+rimraf dist && \
+  esbuild \
+    `find src \( -name '*.ts' -o -name '*.js' \)` \
+    --outdir=dist \
+    --platform=node \
+    --sourcemap=external \
+    --target=node16 \

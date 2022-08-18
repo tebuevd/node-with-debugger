@@ -1,0 +1,25 @@
+{
+  "name": "node-with-debugger",
+  "version": "1.0.0",
+  "description": "example project of a typescript node project with working debugger",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "scripts/build",
+    "dev:esbuild": "scripts/dev/esbuild",
+    "dev:tsx": "scripts/dev/tsx"
+  },
+  "author": "dinislam tebuev",
+  "license": "MIT",
+  "volta": {
+    "node": "16.17.0",
+    "npm": "8.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.49",
+    "esbuild": "^0.15.5",
+    "rimraf": "^3.0.2",
+    "tsx": "^3.8.2",
+    "typescript": "^4.7.4"
+  }
+}

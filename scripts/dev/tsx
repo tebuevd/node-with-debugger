@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+tsx src/index.ts
